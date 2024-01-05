@@ -10,6 +10,7 @@ use near_jsonrpc_tests as test_utils;
 /// Retrieve client status via HTTP GET.
 #[test]
 fn test_status() {
+    print!("test");
     init_test_logger();
 
     run_actix(async {
